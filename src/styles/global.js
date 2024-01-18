@@ -1,37 +1,37 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-    :root {
-        font-size: 62.5%;
-    }
+  :root {
+    font-size: 62.5%;
+  }
 
-    body {
-        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800 }
-    }
+  body {
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800}
+  }
 
-    body, button, input, textarea { 
-        font-family: 'Roboto Slab', serif;
-        font-size: 1.6rem;
-        outline: none;
-        -webkit-font-smoothing: antialiased;
-    }
+  body, button, input, textarea { 
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6rem;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+  }
 
-    a {
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 
-    button, a {
-        cursor: pointer;
-        transition: filter 0.2s;
-    }
+  button, a {
+    cursor: pointer;
+    transition: filter 0.2s;
+  }
 
-    button:hover, a:hover {
-        filter: brightness(0.9);
-    }
+  button:hover, a:hover {
+    filter: brightness(0.9);
+  }
 `;

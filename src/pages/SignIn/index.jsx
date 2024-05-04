@@ -1,4 +1,4 @@
-import { Container, Form } from './styles'
+import { Container, Form, Background } from './styles'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import { TextButton } from '../../components/TextButton'
@@ -30,6 +30,7 @@ export function SignIn() {
 
         <TextButton title='Criar conta' isActive />
       </Form>
+      <Background />
     </Container>
   )
 }

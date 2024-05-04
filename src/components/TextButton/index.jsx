@@ -1,8 +1,12 @@
 import { Container } from "./styles";
 
-export function TextButton({ title, ...rest }) {
+export function TextButton({ title, isActive = false, ...rest }) {
   return (
-    <Container {...rest} type="button">
+    <Container
+      type="button"
+      $isactive={isActive.toString()}
+      {...rest}
+    >
       {title}
     </Container>
   );

@@ -1,7 +1,8 @@
 import { Brand, Container, Menu, Content, NewNote, Search } from './styles'
 import { Header } from '../../components/Header';
 import { TextButton } from '../../components/TextButton'
-import { FiPlus } from 'react-icons/fi';
+import { FiPlus, FiSearch } from 'react-icons/fi';
+import { Input } from '../../components/Input';
 
 export function Home() {
   return(
@@ -17,7 +18,10 @@ export function Home() {
         <li><TextButton title="Node" /></li>
         <li><TextButton title="React" /></li>
       </Menu>
-      <Search></Search>
+
+      <Search>
+        <Input placeholder='Pesquisar pelo título' icon={FiSearch}/>
+      </Search>
       <Content></Content>
       <NewNote>
         <FiPlus size={24} />

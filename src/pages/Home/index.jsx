@@ -1,6 +1,7 @@
 import { Brand, Container, Menu, Content, NewNote, Search } from './styles'
 import { Header } from '../../components/Header';
 import { TextButton } from '../../components/TextButton'
+import { FiPlus } from 'react-icons/fi';
 
 export function Home() {
   return(
@@ -18,7 +19,10 @@ export function Home() {
       </Menu>
       <Search></Search>
       <Content></Content>
-      <NewNote></NewNote>
+      <NewNote>
+        <FiPlus size={24} />
+        Criar nota
+      </NewNote>
 
     </Container>
   );

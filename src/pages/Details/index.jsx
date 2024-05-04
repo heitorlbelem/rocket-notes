@@ -12,7 +12,7 @@ export function Details() {
 
       <main>
         <Content>
-          <TextButton title="Excluir nota" />
+          <TextButton title="Excluir nota" isActive />
 
           <h1> Introdução ao React </h1>
           <p>

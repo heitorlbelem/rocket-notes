@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   gap: 1.6rem;
   padding: 2rem 1.6rem;
+  margin-bottom: 1.6rem;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   color: ${({ theme }) => theme.COLORS.GRAY_300};

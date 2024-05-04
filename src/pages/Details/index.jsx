@@ -14,6 +14,14 @@ export function Details() {
         <Content>
           <TextButton title="Excluir nota" />
 
+          <h1> Introdução ao React </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Veritatis facilis ad et voluptate! Itaque, consectetur quas rem et,
+            dolores temporibus adipisci ea beatae quisquam, quae tempore!
+            Minima iure adipisci expedita.
+          </p>
+
           <Section title="Links úteis">
             <Links>
               <li>

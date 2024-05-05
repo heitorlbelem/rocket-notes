@@ -29,7 +29,9 @@ export const Form = styled.form`
     margin: 4.8rem 0;
   }
 
-  > button:last-child {
+  > a {
+    color: ${({ theme }) => theme.COLORS.ORANGE};
+    font-size: 1.6rem;
     margin-top: 12.4rem;
   }
 `

@@ -1,8 +1,8 @@
 import { Container, Form, Background } from './styles'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
-import { TextButton } from '../../components/TextButton'
 import { FiMail, FiLock } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 export function SignIn() {
   return(
@@ -28,7 +28,7 @@ export function SignIn() {
 
         <Button title='Entrar'></Button>
 
-        <TextButton title='Criar conta' isActive />
+        <Link to='/register'> Criar conta </Link>
       </Form>
       <Background />
     </Container>

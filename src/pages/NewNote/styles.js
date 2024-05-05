@@ -19,7 +19,7 @@ export const Container = styled.div`
 
   > main {
     grid-area: 'content';
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 `
 

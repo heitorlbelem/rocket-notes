@@ -27,9 +27,6 @@ export function NewNote(){
           <Section title='Marcadores'>
             <div className='tags'>
               <NoteItem value='https://rocketseat.com.br' />
-              <NoteItem value='https://rocketseat.com.br' />
-              <NoteItem value='https://rocketseat.com.br' />
-              <NoteItem value='https://rocketseat.com.br' />
               <NoteItem placeholder='Novo link' isNew />
             </div>
           </Section>

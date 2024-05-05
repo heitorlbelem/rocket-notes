@@ -5,8 +5,8 @@ export const Container = styled.div`
   align-items: center;
 
   color: ${({ theme }) => theme.COLORS.GRAY_300};
-  background-color: ${({ theme, isNew }) => isNew ? 'transparent' : theme.COLORS.BACKGROUND_900};
-  border: ${({ theme, isNew }) => isNew ? `1px dashed ${theme.COLORS.GRAY_300}` : 'none'};
+  background-color: ${({ theme, $isnew }) => $isnew == 'true' ? 'transparent' : theme.COLORS.BACKGROUND_900};
+  border: ${({ theme, $isnew }) => $isnew == 'true' ? `1px dashed ${theme.COLORS.GRAY_300}` : 'none'};
 
   margin-bottom: 8px;
   border-radius: 10px;
@@ -20,7 +20,7 @@ export const Container = styled.div`
     background: none;
 
     svg {
-      color: ${({ theme, isNew}) => isNew ? theme.COLORS.ORANGE : theme.COLORS.RED};
+      color: ${({ theme, $isnew}) => $isnew == 'true' ? theme.COLORS.ORANGE : theme.COLORS.RED};
       font-size: 2.4rem;
     }
   }

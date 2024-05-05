@@ -40,7 +40,7 @@ export function Home() {
       </Content>
 
 
-      <NewNote>
+      <NewNote to='/new'>
         <FiPlus size={24} />
         Criar nota
       </NewNote>

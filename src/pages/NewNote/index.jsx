@@ -1,6 +1,7 @@
 import { Container, Form } from './styles'
 import { Header } from '../../components/Header'
 import { Input } from '../../components/Input'
+import { TextArea } from '../../components/TextArea'
 import { Section } from '../../components/Section'
 
 export function NewNote(){
@@ -15,6 +16,7 @@ export function NewNote(){
           </header>
           
           <Input placeholder='Título' />
+          <TextArea placeholder='Observações'/>
 
           <Section title='Links úteis'>
           </Section>
